@@ -1,0 +1,28 @@
+.footer {
+   padding: 23.86px 0 24.14px 0;
+   background-color: $violet2;
+}
+
+.footer-wrap {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+
+.footer-year {
+   width: 370px;
+}
+
+.footer-information {
+   @include h5;
+   color: $white;
+}
+
+.fa-copyright {
+   color: $white;
+   transform: scale(0.7);
+}
+
+.footer-name {
+   color: $grey3;
+}

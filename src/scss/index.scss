@@ -1,0 +1,28 @@
+@import "../scss/cnd";
+@import "../scss/varColors";
+@import "../scss/VarFrontSize";
+@import "../scss/mimix";
+@import "../scss/header";
+@import "../scss/icons";
+@import "../scss/card";
+@import "../scss/ready";
+@import "../scss/additional";
+@import "../scss/footer";
+
+* {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+.html {
+   font-family: 'Raleway', sans-serif;
+}
+
+.conteiner {
+   max-width: 1170px;
+   padding: 0 15px;
+   margin: auto;
+}

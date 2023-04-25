@@ -1,0 +1,56 @@
+@mixin h1 {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 900;
+   font-size: $_H1; 
+   line-height: 75px;
+   color: $white;
+ }
+ @mixin h2 {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: $_H2;
+   line-height: 42px;
+ }
+ @mixin h3 {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: $_H3;
+   line-height: 35px;
+ }
+ @mixin h4 {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 900;
+   font-size: $_H4;
+   line-height: 28px;
+   color: $black;
+ }
+ @mixin h5 {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: $_H5;
+   line-height: 21px;
+   color: $black;
+ }
+ @mixin h6 {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: $_H6;
+   line-height: 15px;
+   color: $white;
+ }
+
+ @mixin social {
+   width: 39px;
+   height: 39px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid $grey5;
+   color: $grey5;
+ }

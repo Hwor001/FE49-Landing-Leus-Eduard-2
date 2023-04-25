@@ -1,0 +1,77 @@
+.additional {
+   padding: 71.14px 0 67.14px 0;
+   background-color: $violet;
+}
+
+.additional-wrap {
+   display: flex;
+   // margin: 0 -15px;
+}
+
+.additional-information {
+   width: 370px;
+   margin: 0 15px;
+}
+
+
+// .additional-share-networks {
+   
+// }
+
+.additional-information-location {
+   @include h5;
+   font-weight: 700;
+   color: $white;
+   text-align: center;
+   margin-bottom: 29px;
+}
+
+.additional-information-melrose {
+   @include h5;
+   color: $white;
+   text-align: center;
+}
+
+.additional-information-share {
+   @include h5;
+   font-weight: 700;
+   color: $white;
+   text-align: center;
+   margin-bottom: 49px;
+}
+
+.additional-information-about {
+   @include h5;
+   font-weight: 700;
+   color: $white;
+   text-align: center;
+   margin-bottom: 28.71px;
+}
+
+.additional-information-cras {
+   @include h5;
+   text-align: center;
+   color: $white;
+}
+
+.additional-share-networks {
+   display: flex;
+   justify-content: center;
+   margin-top: auto;
+}
+
+.additional-share-networks i {
+   margin-right: 26px;
+}
+
+.fa-facebook-f {
+   @include social;
+}
+
+.fa-linkedin {
+   @include social;
+}
+
+.fa-twitter {
+   @include social;
+}

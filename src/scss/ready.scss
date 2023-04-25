@@ -1,0 +1,51 @@
+.ready {
+   padding: 159px 0 114px 0;
+}
+
+.ready-wrap {
+   text-align: center;
+   // margin: 0 -15px;
+}
+
+.ready-card {
+   margin: 0 15px;
+}
+
+.ready-title {
+   @include h3;
+   font-weight: 500;
+   // line-height: 12px;
+   margin-bottom: 25.29px;
+}
+
+.ready-text {
+   @include h5;
+   font-weight: 700;
+   margin-bottom: 50.14px;
+}
+
+.ready-link {
+   width: 369px;
+   height: 77.58px;
+   border: 1px none #ffffff;
+   @include h4;
+   text-transform: uppercase;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   background-color: $red;
+   transition: 0.2s;
+   color: $white;
+}
+
+.ready-link:hover {
+   transition: 0.2s;
+   background-color: $red2;
+} 
+
+.ready-link:active {
+   background-color: $red;
+   box-shadow: 4px 4px 30px 0 $red;
+   transition: 0.2s;
+}

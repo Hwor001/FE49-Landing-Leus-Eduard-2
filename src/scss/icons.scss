@@ -1,0 +1,41 @@
+.icons {
+   padding: 127.07px 0 133.57px 0;
+}
+
+// .icons-wrap {
+// }
+
+.icons-card-start {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-bottom: 97.53px;
+}
+
+.icons-card-information {
+   width: 370px;
+   text-align: center;
+   margin: 0 15px;
+}
+
+.icons-card-icons {
+   margin-bottom: 62.87px;
+}
+
+.icons-card-title {
+   @include h4;
+   margin-bottom: 42.43px;
+}
+
+.icons-card-text {
+   @include h5;
+   color: $black;
+}
+
+.icons-card-end {
+   border: 1px none black;
+   margin: 0 15px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
