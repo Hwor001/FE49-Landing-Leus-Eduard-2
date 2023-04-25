@@ -23,7 +23,6 @@
 
 .card-title {
    @include h4;
-   font-weight: 700;
    margin-bottom: 5.29px;
 }
 
@@ -50,4 +49,41 @@
 
 .fa-linkedin-card {
    margin: 0;
+}
+
+@media screen and (max-width: 1222.50px) {
+   .card-people {
+      justify-content: space-around;
+   }
+   .card-people-information {
+      margin: 0 5px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .card-people-information {
+      width: 227.08px;
+   }
+   .card-icons {
+      transform: scale(0.8);
+      margin-bottom: 25.23px;
+   }
+   .card-title {
+      margin-bottom: 5.29px;
+      font-size: 18px;
+      line-height: 21px;
+   }
+   .card-profession {
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 17.86px;
+   }
+   .card-information {
+      margin-bottom: 39.2px;
+      font-size: 14px;
+      line-height: 16px;
+   }
+   .card-networks i {
+      margin-right: 4.21px;
+   }
 }

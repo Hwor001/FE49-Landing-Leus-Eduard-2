@@ -7,7 +7,7 @@
 
 .icons-card-start {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    flex-wrap: wrap;
    margin-bottom: 97.53px;
 }
@@ -34,8 +34,35 @@
 
 .icons-card-end {
    border: 1px none black;
-   margin: 0 15px;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
+}
+
+@media screen and (max-width: 1222.50px) {
+   .icons-card-start {
+      justify-content: space-around;
+   }
+   .icons-card-information {
+      margin: 0 5px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .icons-card-information {
+      width: 315px;
+   }
+   .icons-card-icons {
+      transform: scale(0.9);
+      margin-bottom: 42.87px;
+   }
+   .icons-card-title {
+      font-size: 18px;
+      line-height: 21px;
+      margin-bottom: 26px;
+   }
+   .icons-card-text {
+      font-size: 14px;
+      line-height: 16px;
+   }
 }

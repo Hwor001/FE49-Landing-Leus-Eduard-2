@@ -26,3 +26,16 @@
 .footer-name {
    color: $grey3;
 }
+
+@media screen and (max-width: 1024px) {
+   .footer-year {
+      width: 315px;
+   }
+   .fa-copyright {
+      transform: scale(0.7);
+   }
+   .footer-information {
+      font-size: 14px;
+      line-height: 16px;
+   }
+}
