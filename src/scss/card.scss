@@ -61,12 +61,16 @@
 }
 
 @media screen and (max-width: 1024px) {
+   .card {
+      padding: 78.22px 0 78.41px 0; 
+   }
    .card-people-information {
       width: 227.08px;
    }
    .card-icons {
-      transform: scale(0.8);
+      transform: scale(0.7);
       margin-bottom: 25.23px;
+   
    }
    .card-title {
       margin-bottom: 5.29px;
@@ -86,4 +90,8 @@
    .card-networks i {
       margin-right: 4.21px;
    }
+}
+
+@media screen and (max-width: 320px) {
+   
 }

@@ -77,6 +77,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+   .additional {
+      padding: 46.59px 0 41.19px 0;
+   }
    .additional-information {
       width: 315px;
    }
@@ -101,4 +104,8 @@
    .additional-information-about {
       margin-bottom: 15.58px;
    }
+}
+
+@media screen and (max-width: 320px) {
+   
 }

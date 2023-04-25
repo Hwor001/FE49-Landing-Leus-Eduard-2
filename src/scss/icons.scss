@@ -49,6 +49,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+   .icons {
+      padding: 87.41px 0 80.11px 0;
+   }
    .icons-card-information {
       width: 315px;
    }
@@ -65,4 +68,8 @@
       font-size: 14px;
       line-height: 16px;
    }
+}
+
+@media screen and (max-width: 320px) {
+
 }
