@@ -64,16 +64,15 @@
    margin: 0 13px;
 }
 
-.fa-facebook-f {
+.fa-facebook-f, .fa-linkedin, .fa-twitter {
    @include social;
+   transition: 0.3s;
 }
 
-.fa-linkedin {
-   @include social;
-}
-
-.fa-twitter {
-   @include social;
+.fa-facebook-f:hover, .fa-linkedin:hover, .fa-twitter:hover {
+   transition: 0.5s;
+   color: black;
+   transform: rotate(180deg);
 }
 
 @media screen and (max-width: 1024px) {

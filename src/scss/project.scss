@@ -1,0 +1,63 @@
+// .project {
+
+// }
+
+.project-wrap {
+   // display: flex;
+   // justify-content: space-around;
+   // flex-wrap: wrap;
+}
+
+// .project-button-link {
+   
+// }
+
+.project-button-link-start {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.project-link {
+   position: relative;
+   transition: 0.2s;
+   max-width: 378px;
+   max-height: 340px;
+}
+
+.project-link:hover .overlay {
+   opacity: 1;
+}
+
+.project-link .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   opacity: 0;
+   background-color: rgba(255, 67, 67, 0.8);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 24px;
+   transition: opacity 0.2s;
+}
+
+.project-link:active .overlay {
+   background-color: rgba(185, 12, 12, 0.8);
+}
+
+
+.project-img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.project-button-link-end {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
