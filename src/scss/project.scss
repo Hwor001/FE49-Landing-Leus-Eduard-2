@@ -16,7 +16,6 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   margin-bottom: 2px;
 }
 
 .project-link {
@@ -24,7 +23,6 @@
    transition: 0.2s;
    max-width: 379px;
    max-height: 340px;
-   margin-right: 2px;
 }
 
 .overlay {
@@ -110,8 +108,5 @@
    }
    .overlay p {
       margin-bottom: 10px;
-   }
-   .project-button-link-start {
-      margin-bottom: 0px;
    }
 }
