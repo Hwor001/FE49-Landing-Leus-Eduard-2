@@ -5,7 +5,6 @@
 .swiper {
    max-width: 100%;
    height: auto;
-   border: 2px solid red;
 }
 
 // .swiper-wrapper {
@@ -94,6 +93,33 @@
    }
 }
 
+
+
 @media screen and (max-width: 576px) {
-   
+   .slide-text {
+      & span, p {
+         max-width: 275px;
+      }
+   }
+    .slide-text span {
+      font-size: 16px;
+      line-height: 12px;
+      margin-bottom: 10px;
+   }
+   .slide-text p {
+      font-size: 10px;
+      line-height: 12px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .slide-text span {
+      font-size: 13px;
+      line-height: 10px;
+      margin-bottom: 5px;
+   }
+   .slide-text p {
+      font-size: 8px;
+      line-height: 10px;
+   }
 }

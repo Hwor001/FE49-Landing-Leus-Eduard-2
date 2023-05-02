@@ -1,6 +1,6 @@
 
 const swiper = new Swiper('.swiper', {
-   direction: 'horizontal',
+  direction: 'horizontal',
    loop: true,
    pagination: {
      el: '.swiper-pagination',
@@ -12,7 +12,7 @@ const swiper = new Swiper('.swiper', {
    },
    slidesPerView: 2,
  });
-
+ 
  const menu = document.querySelector('.header-navigation')
  const menuBtn = document.querySelector('.menu-bunger')
 
