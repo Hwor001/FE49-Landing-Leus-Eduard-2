@@ -105,6 +105,37 @@
    }
 }
 
-@media screen and (max-width: 320px) {
-   
+@media screen and (max-width: 576px) {
+   .additional-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .additional {
+      padding: 46.59px 0 41.19px 0;
+   }
+   .additional-information {
+      width: 279px;
+   }
+   .fa-facebook-f, .fa-linkedin, .fa-twitter {
+      width: 33px;
+      height: 33px;
+   }
+   .additional-information-location {
+      margin-bottom: 34px;
+   }
+   .additional-information-share {
+      margin-bottom: 36.71px;
+   }
+   .additional-information-about {
+      margin-bottom: 38.71px;
+   }
+   .additional-information-melrose {
+      margin-bottom: 69.24px;
+   }
+   .additional-share-networks i {
+      margin: 0 16.77px;
+      margin-bottom: 59.05px;
+  }
+
 }

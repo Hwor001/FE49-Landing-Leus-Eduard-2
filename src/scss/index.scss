@@ -4,8 +4,9 @@
 @import "../scss/mimix";
 @import "../scss/header";
 @import "../scss/icons";
-@import "../scss/project.scss";
+@import "../scss/project";
 @import "../scss/card";
+@import "../scss/swiper";
 @import "../scss/ready";
 @import "../scss/additional";
 @import "../scss/footer";
@@ -19,7 +20,11 @@
 }
 
 .html {
-   font-family: 'Raleway', sans-serif;
+   font-family: 'Raleway', 'Roboto', 'Cardo', sans-serif;
+}
+
+body.lock {
+   overflow: hidden;
 }
 
 .conteiner {

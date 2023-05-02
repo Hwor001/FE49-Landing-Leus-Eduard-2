@@ -40,12 +40,11 @@
 
 .card-networks {
    display: flex;
-}
 
-.card-networks i {
-   margin-right: 6px;
+   & i {
+      margin-right: 6px;
+   }
 }
-
 
 .fa-linkedin-card {
    margin: 0;
@@ -55,13 +54,7 @@
    .card-people {
       justify-content: space-around;
    }
-   .card-people-information {
-      margin: 0 5px;
-   }
-}
-
-@media screen and (max-width: 1024px) {
-   .card {
+    .card {
       padding: 78.22px 0 78.41px 0; 
    }
    .card-people-information {
@@ -93,6 +86,52 @@
    }
 }
 
-@media screen and (max-width: 320px) {
-   
+@media screen and (max-width: 1027.50px) {
+   .card-people-information {
+      width: 190px;
+      padding-bottom: 49.39px;
+   }
+   .card-icons img {
+      width: 190px;
+   }
+   .card-people-information:last-child {
+      padding-bottom: 0px;
+   }
+}
+
+@media screen and (max-width: 439.50px) {
+    .card {
+      padding: 35px 0 34.39px 0; 
+   }
+   .card-people-information {
+      width: 227.08px;
+      padding-bottom: 49.39px;
+   }
+   .card-icons {
+      margin-bottom: 25.25px;
+   }
+   .card-icons img {
+      width: 227.08px;
+   }
+   .card-title {
+      margin-bottom: 5.29px;
+      font-size: 18px;
+      line-height: 21px;
+   }
+   .card-profession {
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 17.86px;
+   }
+   .card-information {
+      margin-bottom: 39.2px;
+      font-size: 14px;
+      line-height: 16px;
+   }
+   .card-networks i {
+      margin-right: 4.21px;
+   }
+   .card-people-information:last-child {
+      padding-bottom: 0px;
+   }
 }
