@@ -13,6 +13,7 @@ const swiper = new Swiper('.swiper', {
    slidesPerView: 2,
  });
  
+ 
  const menu = document.querySelector('.header-navigation')
  const menuBtn = document.querySelector('.menu-bunger')
 
@@ -22,6 +23,4 @@ if (menu && menuBtn) {
 		menuBtn.classList.toggle('active')
 		body.classList.toggle('lock')
 	})
-
-
 }
