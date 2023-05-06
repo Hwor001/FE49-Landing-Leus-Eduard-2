@@ -8,22 +8,26 @@
 //    flex-wrap: wrap;
 // }
 
-// .project-button-link {
-   
-// }
-
-.project-button-link-start {
+.project-button-link {
    display: grid;
    justify-content: center;
    grid-template-rows: repeat(1, 1fr);
    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
 }
 
+// .project-button-link {
+//    display: grid;
+//    justify-content: center;
+//    grid-template-rows: repeat(1, 1fr);
+//    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+// }
+
 .project-link {
    position: relative;
    transition: 0.2s;
    max-width: 379px;
    max-height: 340px;
+   // margin-left: 2px;
 }
 
 .overlay {
@@ -78,14 +82,6 @@
    display: block;
    width: 100%;
    height: auto;
-}
-
-.project-button-link-end {
-   display: grid;
-   display: grid;
-   justify-content: center;
-   grid-template-rows: repeat(1, 1fr);
-   grid-template-columns: repeat(auto-fit, minmax(150px, auto));
 }
 
 @media screen and (max-width: 1552px) {

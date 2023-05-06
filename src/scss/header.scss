@@ -29,6 +29,11 @@
    border-bottom: 1px solid $grey4;
 }
 
+// .header-icons::after {
+//    content: '';
+   
+// }
+
 .header-icons-logo a {
    display: flex;
    margin-left: 20px;
@@ -59,6 +64,7 @@
 .header-navigation-list {
    display: flex;
    align-items: center;
+   
 }
 
 // .header-navigation-text {
@@ -66,11 +72,9 @@
 // }
 
 .navigation-text {
-   width: 134px;
-   height: 100px; 
    @include h6;
    text-transform: uppercase;
-   padding: 30px 0;
+   padding: 38px 34px;
    border-bottom: 3px solid transparent;
    display: flex;
    justify-content: center;
@@ -78,20 +82,20 @@
 }
 
 .navigation-text:hover {
-   padding-bottom: 30px;
+   padding-bottom: 38px;
    border-bottom: 3px solid $white;
 }
 
 .navigation-text:active {
    color: $red2;
-   padding-bottom: 30px;
+   padding-bottom: 38px;
    border-bottom: 3px solid $red2;
 }
 
 .header-text {
    padding: 130px 0 120px 0;
    text-align: center;
-   margin: 0 -15px;
+   // margin: 0 -15px;
 }
 
 .header-text-card {
@@ -156,7 +160,6 @@
       height: 2px;
       background-color: $white;
       transform: translateY(-50%);
-   
       &:first-child {
          top: 0;
          transform: translateY(0);
@@ -174,9 +177,15 @@
       padding: 158px 0 126px 0;
    }
    .navigation-text {
-      width: 112px;
+      padding: 32px 26px;
       font-size: 12px;
       line-height: 14px;   
+   }
+   .navigation-text:hover {
+      padding-bottom: 32px;
+   }
+   .navigation-text:active {
+      padding-bottom: 32px;
    }
    .header-text-title {
       margin-bottom: 61.86px;
@@ -204,13 +213,13 @@
    .header-navigation {
       position: absolute;
       top: 0;
-      left: -100%;
+      left: -120%;
       height: 100vh;
       width: 100%;
-      // background-image: url('../img/img2.jpg');
+      background-image: url('../img/img.jpg');
       transition: 0.2s;
       overflow: auto;
-      background-color: rgba(37, 43, 73, 0.8);
+      // background-color: rgba(37, 43, 73, 0.8);
    }
    .header-navigation:after {
       content: '';
@@ -238,18 +247,18 @@
       .navigation-text {
          position: relative;
          z-index: 10;
-         height: 28px;
+         line-height: 66px;
+         padding: 0;
+         font-size: 24px;
+         margin-bottom: 49px;
+         margin-left: 20px;
+         display: block;
       }
    }
    
    .header-navigation-list {
       padding: 108px 0 0 0;
       display: block;
-   }
-   .navigation-text {
-      display: block;
-      margin-left: 20px;
-      margin-bottom: 49px;
    }
    
    .navigation-text:hover {
