@@ -1,33 +1,22 @@
 // .project {
-
 // }
 
 // .project-wrap {
-//    display: flex;
-//    justify-content: space-around;
-//    flex-wrap: wrap;
 // }
 
 .project-button-link {
    display: grid;
-   justify-content: center;
-   grid-template-rows: repeat(1, 1fr);
-   grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+   grid-template-rows: repeat(2, 1fr);
+   grid-template-columns: repeat(4, minmax(150px, auto));
+   grid-gap: 2px;
+   
 }
-
-// .project-button-link {
-//    display: grid;
-//    justify-content: center;
-//    grid-template-rows: repeat(1, 1fr);
-//    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
-// }
 
 .project-link {
    position: relative;
    transition: 0.2s;
    max-width: 379px;
    max-height: 340px;
-   // margin-left: 2px;
 }
 
 .overlay {
@@ -99,5 +88,11 @@
 @media screen and (max-width: 1054.50px) {
    .overlay p {
       margin-bottom: 10px;
+   }
+}
+
+@media screen and (max-width: 628px) {
+   .project-button-link {
+      grid-template-columns: repeat(2, minmax(120px, auto));
    }
 }
