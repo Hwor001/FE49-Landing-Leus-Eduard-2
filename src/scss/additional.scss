@@ -73,7 +73,22 @@
 .fa-facebook-f:hover, .fa-linkedin:hover, .fa-twitter:hover {
    transition: 0.5s;
    color: black;
-   transform: rotate(180deg);
+   transform: rotate(360deg);
+}
+
+.fa-facebook-f:active  {
+   color: #3b5998;
+   transform: scale(1.2);
+}
+
+.fa-linkedin:active {
+   transform: scale(1.2);
+   color: #0e76a8;
+}
+
+.fa-twitter:active {
+   transform: scale(1.2);
+   color: #00acee;
 }
 
 @media screen and (max-width: 1173.33px) {

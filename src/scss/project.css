@@ -1,0 +1,87 @@
+.project-button-link {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(150px, auto));
+  grid-gap: 2px;
+}
+
+.project-link {
+  position: relative;
+  transition: 0.2s;
+  max-width: 379px;
+  max-height: 340px;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay h3 {
+  margin-bottom: 30px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.project-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.project-link:hover .overlay {
+  opacity: 1;
+}
+
+.project-link .overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: rgba(255, 67, 67, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  transition: opacity 0.2s;
+}
+
+.project-link:active .overlay {
+  background-color: rgba(185, 12, 12, 0.8);
+}
+
+.project-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1552px) {
+  .overlay p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .overlay span {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width: 1054.5px) {
+  .overlay p {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 628px) {
+  .project-button-link {
+    grid-template-columns: repeat(2, minmax(120px, auto));
+  }
+}/*# sourceMappingURL=project.css.map */
