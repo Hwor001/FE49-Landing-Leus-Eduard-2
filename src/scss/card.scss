@@ -46,13 +46,12 @@
 
 .card-networks {
    display: flex;
-   & i {
+   & a {
       margin-right: 6px;
    }
-}
-
-.fa-linkedin-card {
-   margin: 0;
+   & a:last-child {
+      margin-right: 0;
+   }
 }
 
 @media screen and (max-width: 1222.50px) {
@@ -108,7 +107,7 @@
    }
 }
 
-@media screen and (max-width: 867.50px) {
+@media screen and (max-width: 901.50px) {
    .card-people-information {
       padding-bottom: 49.39px;
    }
@@ -117,7 +116,13 @@
    }
 }
 
-@media screen and (max-width: 454px) {
+@media screen and (max-width: 681px) {
+   .card-people {
+      justify-content: space-evenly;
+   }
+}
+
+@media screen and (max-width: 462px) {
    .card {
       padding: 35px 0 34.39px 0; 
    }
@@ -141,7 +146,7 @@
       margin-bottom: 17.86px;
    }
    .card-information {
-      margin-bottom: 39.2px;
+      margin-bottom: 20px;
       font-size: 14px;
       line-height: 16px;
    }

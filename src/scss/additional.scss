@@ -61,8 +61,16 @@
    margin-top: auto;
 }
 
-.additional-share-networks i {
+.additional-share-networks a {
    margin: 0 13px;
+}
+
+.additional-share-networks a:first-child {
+   margin-left: 0;
+}
+
+.additional-share-networks a:last-child {
+   margin-right: 0;
 }
 
 .fa-facebook-f, .fa-linkedin, .fa-twitter {

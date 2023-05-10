@@ -70,7 +70,7 @@
    }
 }
 
-@media screen and (max-width: 404px) {
+@media screen and (max-width: 595.50px) {
    .ready {
       padding: 85px 0 45px 0;
    }
@@ -83,6 +83,9 @@
       line-height: 15px;
       margin-bottom: 11px;
    }
+}
+
+@media screen and (max-width: 410px) {
    .ready-link {
       width: 279px;
    }
