@@ -4,15 +4,13 @@
 }
 
 .card-wrap {
-    // margin: 0 -15px; 
+   margin: 0 -15px; 
 }
 
 .card-people {
-   // display: grid;
-   // grid-template-columns: repeat(4, auto);
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-around;
+   justify-content: space-between;
 }
 
 .card-people-information {
@@ -22,11 +20,11 @@
 
 .card-icons {
    margin-bottom: 30px;
-   width: 100%;
 }
 
 .card-icons img{
    height: 270px;
+   width: 100%;
 }
 
 .card-title {
@@ -111,9 +109,6 @@
 }
 
 @media screen and (max-width: 867.50px) {
-   // .card-people {
-   //    grid-template-columns: repeat(2, auto);
-   // }
    .card-people-information {
       padding-bottom: 49.39px;
    }

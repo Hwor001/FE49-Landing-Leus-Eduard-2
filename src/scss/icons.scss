@@ -16,11 +16,15 @@
 .icons-card-information {
    width: 370px;
    text-align: center;
-   margin: 0 15px;
+   margin: 0 15px 97.53px;
+}
+
+.icons-card-information:nth-child(4), .icons-card-information:nth-child(5), .icons-card-information:nth-child(6) {
+   margin-bottom: 0;
 }
 
 .icons-card-icons {
-   margin-bottom: 62.87px;
+   margin-bottom: 60px;
 }
 
 .icons-card-title {
@@ -40,9 +44,10 @@
    }
    .icons-card-information {
       width: 315px;
+      margin-bottom: 57.35px;
    }
    .icons-card-icons {
-      margin-bottom: 42.87px;
+      margin-bottom: 35px;
    }
    .icons-card-title {
       font-size: 18px;
@@ -56,9 +61,6 @@
 }
 
 @media screen and (max-width: 1056px) {
-   .icons {
-      padding: 58.38px 0 34.85px 0;
-   }
    .icons-card-start {
       margin-bottom: 49.85px;
    }
@@ -66,13 +68,23 @@
       width: 279px;
       margin-bottom: 49.85px;
    }
-   .icons-card-information:last-child {
-      margin-bottom: 0;
-   }
 }
 
-@media screen and (max-width: 1056px) {
+@media screen and (max-width: 948px) {
+   .icons {
+      padding: 58.38px 0 34.85px 0;
+   }
    .icons-wrap {
       justify-content: space-evenly;
    }
+   .icons-card-information:nth-child(4) {
+      margin-bottom: 49.85px;
+   }
+}
+
+@media screen and (max-width: 639px) {
+   .icons-card-information:nth-child(5) {
+      margin-bottom: 49.85px;
+   }
+
 }
