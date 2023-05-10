@@ -4,6 +4,7 @@
    background-position: center;
    background-size: cover;
    position: relative;
+   padding: 38.36px 0 120px;
 }
 
 .header:after {
@@ -25,7 +26,6 @@
 .header-icons {
    display: flex;
    justify-content: space-between;
-   align-items: center;
 }
 
 .header-icons:after {
@@ -36,7 +36,7 @@
    background-color: $grey4;
    margin: auto;
    top: 50%;
-   transform:  translateY(-277px);
+   transform:  translateY(-233px);
    left: 0;
    right: 0;
 }
@@ -81,7 +81,7 @@
 .navigation-text {
    @include h6;
    text-transform: uppercase;
-   padding: 38px 34px;
+   padding: 4.64px 34px 38px 34px;
    border-bottom: 3px solid transparent;
    display: flex;
    justify-content: center;
@@ -100,7 +100,7 @@
 }
 
 .header-text {
-   padding: 130px 0 120px 0;
+   padding: 130px 0 0 0;
    text-align: center;
    // margin: 0 -15px;
 }
@@ -180,14 +180,17 @@
    }
 }
 @media screen and (max-width: 1024px) {
+   .header {
+      padding: 38px 0 126px;
+   }
    .header-text {
-      padding: 158px 0 126px 0;
+      padding: 158px 0 0 0;
    }
    .header-icons:after {
-      transform:  translateY(-294px);
+      transform:  translateY(-244px);
    }
    .navigation-text {
-      padding: 32px 26px;
+      padding: 4.64px 26px 32px 26px; 
       font-size: 12px;
       line-height: 14px;   
    }
@@ -213,8 +216,8 @@
 }
 
 @media screen and (max-width: 768px) {
-   .header-icons {
-      padding: 19px 0 0 0;
+   .header {
+      padding: 21px 0 52px;
    }
    .header-icons:after {
       display: none;
@@ -224,7 +227,7 @@
    }
    .header-navigation {
       position: absolute;
-      top: 0;
+      top: -21px;
       left: -120%;
       height: 100vh;
       width: 100%;
@@ -270,7 +273,7 @@
    }
    
    .header-navigation-list {
-      padding: 108px 0 0 0;
+      padding: 129px 0 0 0;
       display: block;
    }
    

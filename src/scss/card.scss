@@ -1,15 +1,18 @@
 .card {
-   padding: 114px 0; 
+   padding: 114px 0;
+  
 }
 
-// .card-wrap {
-//    margin: 0 -15px;
-// }
+.card-wrap {
+    // margin: 0 -15px; 
+}
 
 .card-people {
+   // display: grid;
+   // grid-template-columns: repeat(4, auto);
    display: flex;
-   justify-content: center;
    flex-wrap: wrap;
+   justify-content: space-around;
 }
 
 .card-people-information {
@@ -19,6 +22,11 @@
 
 .card-icons {
    margin-bottom: 30px;
+   width: 100%;
+}
+
+.card-icons img{
+   height: 270px;
 }
 
 .card-title {
@@ -40,7 +48,6 @@
 
 .card-networks {
    display: flex;
-
    & i {
       margin-right: 6px;
    }
@@ -63,9 +70,6 @@
    .card-icons {
       margin-bottom: 25.23px;
    }
-   .card-icons img {
-      width: 227.08px;
-   }
    .card-title {
       margin-bottom: 5.29px;
       font-size: 18px;
@@ -84,12 +88,15 @@
    .card-networks i {
       margin-right: 4.21px;
    }
+   .card-icons img{
+      width: 100%;
+      height: 227.08px;
+   }
 }
 
 @media screen and (max-width: 1049.33px) {
    .card-people-information {
       width: 190px;
-      padding-bottom: 49.39px;
    }
    .card-icons img {
       width: 190px;
@@ -97,19 +104,30 @@
    .card-people-information:last-child {
       padding-bottom: 0px;
    }
+   .card-icons img{
+      width: 100%;
+      height: 190px;
+   }
 }
 
-@media screen and (max-width: 894px) {
-
+@media screen and (max-width: 867.50px) {
+   // .card-people {
+   //    grid-template-columns: repeat(2, auto);
+   // }
+   .card-people-information {
+      padding-bottom: 49.39px;
+   }
+   .card-people-information:last-child {
+      padding-bottom: 0px;
+   }
 }
 
 @media screen and (max-width: 454px) {
-    .card {
+   .card {
       padding: 35px 0 34.39px 0; 
    }
    .card-people-information {
       width: 227.08px;
-      padding-bottom: 49.39px;
    }
    .card-icons {
       margin-bottom: 25.25px;
@@ -135,7 +153,8 @@
    .card-networks i {
       margin-right: 4.21px;
    }
-   .card-people-information:last-child {
-      padding-bottom: 0px;
+   .card-icons img{
+      width: 100%;
+      height: 227.08px;
    }
 }
