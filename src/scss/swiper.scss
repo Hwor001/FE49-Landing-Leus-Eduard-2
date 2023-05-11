@@ -17,7 +17,6 @@
    flex: 1;
    width: 100%;
    height: 100%;
-   // background-color: #5C3249;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -27,6 +26,7 @@
          color: $white;
          width: 330px;
          height: auto;
+         margin: 0 15px;
       }
  }
 
@@ -34,7 +34,15 @@
    
 // }
 
-
+.red {
+   background-color: $red2;
+}
+.yellow {
+   background-color: #ffd900;
+}
+.blue {
+   background-color: #0011ff;
+}
 
 .swiper-text p {
    font-family: 'Cardo';
