@@ -120,14 +120,14 @@
       width: 100vw;
       transform: translateY(-4px);
       text-align: center;
+      
       & span, p {
-         width: 275px;
+         width: 80%;
       }
     }
     .swiper-button-prev {
       display: none;
    }
-   
    .swiper-button-next {
       display: none;
    }
