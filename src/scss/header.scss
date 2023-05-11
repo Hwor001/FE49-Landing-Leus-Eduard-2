@@ -65,7 +65,7 @@
 }
 
 .header-navigation {
-   margin-right: 5px;
+   margin-right: 6px;
 }
 
 .header-navigation-list {
@@ -187,6 +187,9 @@
    }
    .header-icons:after {
       transform:  translateY(-244px);
+   }
+   .header-navigation {
+      margin-right: 5px;
    }
    .navigation-text {
       padding: 4.64px 26px 32px 26px; 
