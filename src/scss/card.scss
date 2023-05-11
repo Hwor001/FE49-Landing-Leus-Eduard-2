@@ -36,6 +36,7 @@
    @include h5;
    color: $red;
    margin-bottom: 17.86px;
+   text-transform: uppercase;
 }
 
 .card-information {
@@ -95,9 +96,6 @@
    .card-people-information {
       width: 190px;
    }
-   .card-icons img {
-      width: 190px;
-   }
    .card-people-information:last-child {
       padding-bottom: 0px;
    }
@@ -120,9 +118,15 @@
    .card-people {
       justify-content: space-evenly;
    }
+   .card-people-information:nth-child(3), .card-people-information:nth-child(4) {
+      padding-bottom: 0px;
+   }
 }
 
 @media screen and (max-width: 462px) {
+   .card-people-information:nth-child(3) {
+      padding-bottom: 49.39px;
+   }
    .card {
       padding: 35px 0 34.39px 0; 
    }
@@ -131,9 +135,6 @@
    }
    .card-icons {
       margin-bottom: 25.25px;
-   }
-   .card-icons img {
-      width: 227.08px;
    }
    .card-title {
       margin-bottom: 5.29px;
